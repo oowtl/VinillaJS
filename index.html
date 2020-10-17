@@ -1,0 +1,33 @@
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Welcome! - JS</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="js-clock">
+        <h1 class="hs-title">00:00</h1>
+      </div>
+      <form action="" class="js-form form">
+        <input type="text" placeholder="what is your name?" />
+        <!-- 처음에 여기 뭘 작성해서 엔터를 치면 새로고침 되는 것 처럼 보인다. -->
+        <!-- 그런데 form은 항상 어디론가 보내고 싶어한다. -->
+      </form>
+
+      <h4 class="js-greetings greetings"></h4>
+
+      <form action="" class="js-toDoForm">
+        <input type="text" placeholder="Write a to do" />
+      </form>
+      <ul class="js-toDoList"></ul>
+      <span class="js-weather"></span>
+    </div>
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="background.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>
